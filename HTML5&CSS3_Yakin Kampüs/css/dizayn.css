@@ -1,0 +1,32 @@
+h1{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+*{color:red;}
+
+tr>td[value="baslik"]{
+    background-color: yellow;
+}
+
+tr:nth-child(even){
+    background-color: lightblue;
+}
+
+tr:nth-child(odd){
+    background-color:lightgreen;
+}
+tr+tr{
+    text-decoration: ;
+}
+td[value="baslik"]{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+[]
+{}

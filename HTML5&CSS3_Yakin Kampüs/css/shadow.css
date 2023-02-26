@@ -1,0 +1,17 @@
+#genel{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+}
+#resim{
+    -webkit-box-shadow: rgba(100,100,100,0.7) 10px 10px 10px;
+}
+#yazi{
+    font: bold 25px Calibri;
+    text-shadow: rgba(100, 100, 100, 0.8) 7px 7px 7px ;
+}
+
+
+
+
+{}
