@@ -10,11 +10,6 @@ Click me to display Date and Time.</button>
 
 <p id="demo"></p>
 
-<h2>My second Java script </h2>
-<button type="button" onclick="document.getElementById('demo2').innerHTML = Date()">Click me to display Date and Time</button>
-
-<p id="demo2"></p>
-
 <h2>Use JavaScript to Change Text</h2>
 <p>This example writes "Hello JavaScript!" into an HTML element with id="demo3":</p>
 
@@ -24,14 +19,21 @@ Click me to display Date and Time.</button>
 document.getElementById("demo3").innerHTML = "Hello JavaScript!";
 </script> 
 
-<h2>Use JavaScript to Change Text</h2>
-<p>This example writes "Hello JavaScript!...!" into an HTML element with id="demo4":</p>
+<h1>My First JavaScript</h1>
 
-<p id="demo4"></p>
+<p>JavaScript can change the content of an HTML element:</p>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="demo5">This is a demonstration.</p>
 
 <script>
-document.getElementById("demo4").innerHTML = "Hello JavaScript!...!";
-</script> 
+function myFunction(){ 
+  document.getElementById("demo5").innerHTML = "Hello JavaScript!";
+}
+</script>
+
+
 
 
 </body>
