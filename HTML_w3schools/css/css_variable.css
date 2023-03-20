@@ -18,8 +18,9 @@ h2{
 }
 
 button{
+    --button-blue: #0000ff;
     background-color: var(--white);
     color: var(--blue);
-    border: 1px solid var(--blue);
+    border: 1px solid var(--button-blue);
     padding: 5px;
 }
