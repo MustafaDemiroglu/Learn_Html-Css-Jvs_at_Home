@@ -7,8 +7,8 @@ yas(29);
 */
 
 function kimlik(ad,soyad) {
-    document.write("Merhaba benim adim:"+<b>ad</b>+"Soyadim:"+<b>soyad</b>+break");
+    document.write("Merhaba benim adim:"+<strong>ad</strong>+"Soyadim:"+<strong>soyad</strong>);
 }
 
 kimlik("Mesut","Gün");
-kimlik("Mustafa", "Demiroglu")
+kimlik("Mustafa","Demiroglu");
