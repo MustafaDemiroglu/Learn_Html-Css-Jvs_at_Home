@@ -6,3 +6,12 @@ document.write ("Yakin Kampüs Sitesi "+yas+" yasinda. "+ yil +" sonra "+(yil+ya
 buray ne yazarsan yaz hic bir etkisi olmaz
 
 */
+
+function deneme() {
+    alert ("Merhaba Yakin Kampüs");
+}
+deneme();
+
+function deneme2() {
+    alert ("Merhaba Yakin Kampüs");
+}
