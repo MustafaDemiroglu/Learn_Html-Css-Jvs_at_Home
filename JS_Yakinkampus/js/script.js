@@ -1,17 +1,14 @@
-var yas = 1 ;
-var yil = 5 ;
-document.write ("Yakin Kampüs Sitesi "+yas+" yasinda. "+ yil +" sonra "+(yil+yas)+" yasinda olacak")
-// document.write(" Yandaki yazinin dogrulugundan emin degilim")
 /*
-buray ne yazarsan yaz hic bir etkisi olmaz
+function yas(x) {
+    document.write("Merhaba Kullanici, Benim Yasim: "+x);
+}
 
+yas(29);
 */
 
-function deneme() {
-    alert ("Merhaba Yakin Kampüs");
+function kimlik(ad,soyad) {
+    document.write("Merhaba benim adim:"+<b>ad</b>+"Soyadim:"+<b>soyad</b>+break");
 }
-deneme();
 
-function deneme2() {
-    alert ("Merhaba Yakin Kampüs");
-}
+kimlik("Mesut","Gün");
+kimlik("Mustafa", "Demiroglu")
