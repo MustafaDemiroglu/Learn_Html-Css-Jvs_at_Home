@@ -1,5 +1,25 @@
 
-
+var ad ="Mesutcuk";
+var soyad ="Günt";
+/*
+if (ad=="Mesut") {
+    if (soyad=="Gün") {
+        document.write("Evet, aradigimiz adami bulduk !!!");
+    } 
+    else {
+    document.write( "Isim dogru ama soyadi yanlis");
+}}
+else {
+    document.write("Isim yanlis bu sebeple soyadina hic bile bakmadim");
+}
+*/
+if ((ad=="Mesut")&&(soyad=="Gün")){
+    document.write("Evet aradigimiz adami bulduk");} 
+    else{
+        if ((ad=="Mesut")||(soyad=="Gün")) {
+            document.write("Ya Adiniz ya da Soyadiniz yanlis girildi");} 
+            else{
+            document.write("Ne adiniz ne de soyadiniz dogru girilmistir");}}
 
 /*
 var isim="Mustafa"
