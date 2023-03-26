@@ -1,10 +1,150 @@
 
 
+// Javascript Kronometre, Setinterval, Global/Location
+var saniye = 3595;
+
+function kronometre() {
+    var dak = Math.floor(saniye/60);
+    var saat = Math.floor(saniye/3600);
+    var dakika = dak%60;
+    var san= saniye%60;
+    document.write(saat+" : "+dakika+" : "+san);
+    document.write("</br>")
+    // saniye=saniye+1 döngüsü icin
+    saniye++;
+}
+kronometre();
+
+setInterval("kronometre()",1000);
 
 
 
+/*
+// Java Script Date Object
+var zaman = new Date();
+document.write(zaman);
 
+document.write("<hr/>");
+var saat = zaman.getHours();
+document.write(saat);
 
+document.write("<hr/>");
+var dakika = zaman.getMinutes();
+document.write(dakika);
+
+document.write("<hr/>");
+var saniye = zaman.getSeconds();
+document.write(saniye);
+
+document.write("<hr/>");
+var zamanDegistirilmis = new Date (2023,2,26,22,07,0,0);
+document.write(zamanDegistirilmis);
+
+document.write("<hr/>");
+zaman.setMinutes(48)
+document.write(zaman);
+
+document.write("<hr/>");
+function yasKontrol() {
+    var dogumYili = prompt("Lütfen dogum yilinizi giriniz","");
+    var mevcutZaman = new Date();
+    var siniryil = mevcutZaman.getFullYear()-18;
+    if (dogumYili>siniryil) {
+        alert("Ne yazik ki yasiniz sitesnin icerigni glrüntülemek icin yeterli degil");} 
+        else {
+            alert("Hosgeldiniz, keyfli vakitler dileriz");}}
+yasKontrol();
+
+*/
+/*
+// Javascript Math Object
+var liste = new Array () ;
+liste [0] = Math.round (2.75) ;
+liste [1] = Math.round (2.25) ;
+liste [2] = Math.floor (2.99) ;
+liste [3] = Math.PI ;
+liste [4] = Math.E ;
+liste [5] = Math.sqrt (169) ;
+liste [6] = Math.random () ; // 0 ile 1 arasinda rastlantisal rakam döndür. 
+liste [7] = Math.max (458745645646,44,4,547,78964,7544221111,1111111111111111111111111111111111111111) ;
+liste [8] = Math.min (4,7,98,56,1,54236,74565) ;
+
+for (var x=0;x<liste.length;x++) {
+    document.write(liste[x]+"<hr/>");}
+*/
+/*
+//Array, Prompt
+var liste = new Array();
+for (var i=0;i<5;i++) {
+    var y =prompt("Lütfen"+i+"komutu giriniz");
+    liste[i]=y;}
+    document.write(liste.join());
+
+*/
+/*
+// Array, Sort, Pop; Push
+var mevcutdersler = new Array (" XHTML", " JS");
+var verilecekdersler = new Array ("HTML 5", " MySQL"); 
+var dersler = mevcutdersler.concat(verilecekdersler);
+document.write(dersler.join());
+
+// SORT Methodu:
+document.write("<hr/>");
+var derslersirali= dersler.sort();
+document.write(derslersirali.join());
+
+//POP Methodu:
+document.write("<hr/>");
+derslersirali.pop();
+document.write(derslersirali.join());
+
+//PUSH Methodu:
+document.write("<hr/>");
+derslersirali.push("Autocad","Rhino");
+document.write(derslersirali.join());
+
+/*
+/*
+//Array and Join, Reverse, Concat 
+var mevcutdersler = new Array (" XHTML"," JS");
+
+var verilecekdersler = new Array (" HTML5"," MySQL");
+
+for (var i=0;i<mevcutdersler.length;i++) {
+    document.write(mevcutdersler[i]);}
+
+document.write("<hr/>");
+for (var j=0;j<verilecekdersler.length;j++) {
+    document.write(verilecekdersler[j]);}
+
+document.write("<hr/>");
+document.write(verilecekdersler.join());
+
+document.write("<hr/>");
+document.write(mevcutdersler.join());
+
+document.write("<hr/>");
+var dersler=new Array();
+dersler[0]=mevcutdersler[0];
+dersler[1]=mevcutdersler[1];
+dersler[2]=verilecekdersler[0];
+dersler[3]=verilecekdersler[1];
+document.write(dersler.join());
+
+document.write("<hr/>");
+document.write(verilecekdersler.concat(mevcutdersler).join());
+
+document.write("<hr/>");
+var tersdersler=new Array ();
+tersdersler[0]=dersler[3];
+tersdersler[1]=dersler[2];
+tersdersler[2]=dersler[1];
+tersdersler[3]=dersler[0];
+document.write(tersdersler.join());
+
+document.write("<hr/>");
+document.write((dersler.reverse()).join())
+*/
 /*
 //Array da Length ve For döngüsü 
 var derslistesi = new Array ("XHTML", "Java", "JavaScript", "Autocad", "HTML5");
