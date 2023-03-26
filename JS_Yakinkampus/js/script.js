@@ -1,4 +1,24 @@
 
+
+
+/*
+var isim="Mustafa"
+if (isim!="Mesut") {
+    document.write("Sizin Adiniz Mesut");
+    }
+    else {
+        document.write("Sizin Adiniz Mesut degil");
+}
+var ilksayi=5;
+var ikincisayi=3;
+if (ilksayi<ikincisayi) {
+    document.write("</br>"+"ikinci sayi daha büyük!!!");
+    } 
+    else {
+        document.write("</br>"+"ilk sayi daha büyük !!!")
+}
+*/
+/*
 var x=5;
 x++;
 document.write("Merhaba Aradiginiz sayi: " +x);
@@ -7,7 +27,7 @@ document.write("</br>"+" Merhaba Aradiginiz ikinci sayi: " +x);
 var y=10;
 y+=3;
 document.write("</br>"+"Merhaba aradiginiz ücüncü sayi:"+y); 
-
+*/
 /*
 var x=1;
 function birinci(param) {
