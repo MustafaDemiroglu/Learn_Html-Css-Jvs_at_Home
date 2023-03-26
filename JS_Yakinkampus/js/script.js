@@ -1,5 +1,14 @@
 
-
+function ders (isim, kod, hoca, tarih) {
+    this.isim=isim;
+    this.kod=kod;
+    this.hoca=hoca;
+    this.tatih=tarih;}
+var ders1= new ders ("Javascript", 101, "Mesut", 2010); 
+document.write(ders1.isim + "</br>");
+document.write(ders1.kod + "</br>");
+document.write(ders1.hoca + "</br>");
+document.write(ders1.tarih + "</br>");
 
 /*
 var z=0;
