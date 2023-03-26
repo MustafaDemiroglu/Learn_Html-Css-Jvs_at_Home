@@ -1,4 +1,11 @@
-
+/*
+var x=0;
+while (x<30) {
+    document.write("Su anki x degeri: "+x+"</br>");
+    x=x+1;
+}
+*/
+/*
 var ders="Javascript";
 switch (ders) {
     case "Javascript":{
@@ -12,7 +19,7 @@ switch (ders) {
                 break;}           
     default:{
         document.write("Aradiginiz "+ders+" dersine ulasilamadi. Sitemizden benzer diger dersleri"+"<a href='http://www.yakinkampus.com'>Burada bulabilrsiniz</a> ");}}
-
+*/
 /*
 var ad ="Mesutcuk";
 var soyad ="Günt";
