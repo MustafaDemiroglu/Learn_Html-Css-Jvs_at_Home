@@ -1,5 +1,15 @@
-var x=1;
 
+var x=5;
+x++;
+document.write("Merhaba Aradiginiz sayi: " +x);
+x--;
+document.write("</br>"+" Merhaba Aradiginiz ikinci sayi: " +x);
+var y=10;
+y+=3;
+document.write("</br>"+"Merhaba aradiginiz ücüncü sayi:"+y); 
+
+/*
+var x=1;
 function birinci(param) {
     document.write("Ilk fonksiyonumu " +param+ ". defa calistiriyorum ! ");
     param=param+1
@@ -15,9 +25,7 @@ function nihai() {
     ikinci();
 }
 birinci(x);
-
-
-
+*/
 /*
 function yas(x) {
     document.write("Merhaba Kullanici, Benim Yasim: "+x);
@@ -25,7 +33,6 @@ function yas(x) {
 
 yas(29);
 */
-
 /* 
 function kimlik(ad,soyad) {
     document.write("Merhaba benim adim:"+<strong>ad</strong>+"Soyadim:"+<strong>soyad</strong>);
