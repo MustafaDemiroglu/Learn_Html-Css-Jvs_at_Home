@@ -1,4 +1,66 @@
 
+
+
+
+
+/*
+var derslistesi = new Array ("XHTML", "Java", "JavaScript", "Autocad", "HTML5");
+document.write(derslistesi[3]);
+var ülkelistesi=new Array();
+document.write("<hr/>");
+ülkelistesi[0]="Almanya";
+ülkelistesi[1]="Fransa";
+ülkelistesi[2]="Türkiye";
+ülkelistesi[3]="Ingiltere";
+ülkelistesi[4]="Amerika";
+ülkelistesi[5]="Ispanya";
+document.write(ülkelistesi[0]);
+*/
+/*
+function ders (isim, kod, hoca, tarih) {
+    this.isim=isim;
+    this.kod=kod;
+    this.hoca=hoca;
+    this.tarih=tarih;
+    this.kacsenedir=kacsenedir;}
+function kacsenedir() {
+    var x=2012-this.tarih;
+    return x;}
+var ders1= new ders ("Javascript", 101, "Mesut", 2010);
+var ders2= new ders ("XHTML", 102, "Caglar", 2011);
+document.write(ders1.tarih);
+document.write("</br>"+"</br>");
+document.write(ders1.kacsenedir);
+document.write("</br>"+"</br>");
+document.write(ders2.kacsenedir);
+document.write("</br>"+"</br>");
+*/
+/*
+function ders (isim, kod, hoca, tarih) {
+    this.isim=isim;
+    this.kod=kod;
+    this.hoca=hoca;
+    this.tarih=tarih;}
+var ders1= new ders ("Javascript", 101, "Mesut", 2010); 
+document.write(ders1.isim + "</br>");
+document.write(ders1.kod + "</br>");
+document.write(ders1.hoca + "</br>");
+document.write(ders1.tarih + "</br>");
+document.write("</br>"+"</br>");
+
+var ulke1={isim:"Almanya",dil:"Almanca",konum:"AB",kurulusyili:"1871"};
+document.write(ulke1.isim);
+document.write(ulke1.dil);
+document.write(ulke1.konum);
+document.write(ulke1.kurulusyili);
+
+var ulke2={isim:"Fransa",dil:"Fransizca",konum:"AB",kurulusyili:"1500"};
+document.write(ulke2.isim);
+document.write(ulke2.dil);
+document.write(ulke2.konum);
+document.write(ulke2.kurulusyili);
+*/
+/*
 function ders (isim, kod, hoca, tarih) {
     this.isim=isim;
     this.kod=kod;
@@ -9,7 +71,7 @@ document.write(ders1.isim + "</br>");
 document.write(ders1.kod + "</br>");
 document.write(ders1.hoca + "</br>");
 document.write(ders1.tarih + "</br>");
-
+*/
 /*
 var z=0;
 do {
