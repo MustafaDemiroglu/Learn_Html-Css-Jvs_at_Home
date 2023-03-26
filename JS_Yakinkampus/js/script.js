@@ -1,3 +1,23 @@
+var x=1;
+
+function birinci(param) {
+    document.write("Ilk fonksiyonumu " +param+ ". defa calistiriyorum ! ");
+    param=param+1
+    ikinci(param);
+}
+function ikinci(param2) {
+    document.write("Ikinci fonksiyonumu " +param2+ ". defa calistiriyorum ! ");
+    param2=param2+1
+    birinci(param2);
+}
+function nihai() {
+    birinci();
+    ikinci();
+}
+birinci(x);
+
+
+
 /*
 function yas(x) {
     document.write("Merhaba Kullanici, Benim Yasim: "+x);
@@ -14,7 +34,7 @@ function kimlik(ad,soyad) {
 kimlik("Mesut","Gün");
 kimlik("Mustafa","Demiroglu");
 */
-
+/*
 function deneme(x) {
     return x*x;
 }
@@ -24,3 +44,4 @@ function deneme2(y) {
     alert(y*y*y);
 }
 deneme2(deneme(4));
+*/
