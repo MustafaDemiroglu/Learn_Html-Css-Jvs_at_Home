@@ -1,7 +1,17 @@
 
+
+
+/*
+var z=0;
+do {
+    document.write("Su anki Z degeri : " +z+"</br>");
+    z++;
+} while (z<20);
+/*
+/*
 for (var y=10; y<20; y++){
     document.write("su anki y degeri: " +y+"</br>")}
-
+*/
 /*
 var x=0;
 while (x<30) {
