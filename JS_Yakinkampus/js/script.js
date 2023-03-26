@@ -3,6 +3,36 @@
 
 
 
+
+
+/*
+//Array da Length ve For döngüsü 
+var derslistesi = new Array ("XHTML", "Java", "JavaScript", "Autocad", "HTML5");
+document.write(derslistesi[3]);
+
+var ülkelistesi=new Array();
+document.write("<hr/>");
+ülkelistesi[0]="Almanya";
+ülkelistesi[1]="Fransa";
+ülkelistesi[2]="Türkiye";
+ülkelistesi[3]="Ingiltere";
+ülkelistesi[4]="Amerika";
+ülkelistesi[5]="Ispanya";
+
+document.write(ülkelistesi[0]);
+
+var uzunluk1=derslistesi.length;
+document.write("<hr/>");
+document.write(uzunluk1);
+
+var uzunluk2=ülkelistesi.length;
+document.write("<hr/>");
+document.write(uzunluk2);
+document.write("<hr/>");
+
+for (var i=0;i<derslistesi.length;i++) {
+   document.write(derslistesi[i]+" ");}
+*/
 /*
 var derslistesi = new Array ("XHTML", "Java", "JavaScript", "Autocad", "HTML5");
 document.write(derslistesi[3]);
