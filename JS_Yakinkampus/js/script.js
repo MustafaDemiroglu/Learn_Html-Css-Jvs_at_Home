@@ -1,4 +1,19 @@
 
+var ders="Javascript";
+switch (ders) {
+    case "Javascript":{
+            document.write("Yeni "+ders+"  dersimiz eklendi."+"<a href='http://www.yakinkampus.com'>Buradan izleyebilirsiniz</a> ");
+            break;}
+    case "XHTML":{
+            document.write("Yeni "+ders+"  dersimiz eklendi."+"<a href='http://www.yakinkampus.com'>Buradan izleyebilirsiniz</a> ");
+                break;}
+    case "HTML5":{
+            document.write("Yeni "+ders+"   dersimiz eklendi."+"<a href='http://www.yakinkampus.com'>Buradan izleyebilirsiniz</a> ");
+                break;}           
+    default:{
+        document.write("Aradiginiz "+ders+" dersine ulasilamadi. Sitemizden benzer diger dersleri"+"<a href='http://www.yakinkampus.com'>Burada bulabilrsiniz</a> ");}}
+
+/*
 var ad ="Mesutcuk";
 var soyad ="Günt";
 /*
@@ -13,6 +28,7 @@ else {
     document.write("Isim yanlis bu sebeple soyadina hic bile bakmadim");
 }
 */
+/*
 if ((ad=="Mesut")&&(soyad=="Gün")){
     document.write("Evet aradigimiz adami bulduk");} 
     else{
@@ -20,7 +36,7 @@ if ((ad=="Mesut")&&(soyad=="Gün")){
             document.write("Ya Adiniz ya da Soyadiniz yanlis girildi");} 
             else{
             document.write("Ne adiniz ne de soyadiniz dogru girilmistir");}}
-
+*/
 /*
 var isim="Mustafa"
 if (isim!="Mesut") {
@@ -73,7 +89,7 @@ function yas(x) {
 
 yas(29);
 */
-/* 
+/*
 function kimlik(ad,soyad) {
     document.write("Merhaba benim adim:"+<strong>ad</strong>+"Soyadim:"+<strong>soyad</strong>);
 }
