@@ -1,5 +1,39 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+/27.EventHandler-3
+function sayfayuklememesaji() {
+    alert('Sayfamiza Hos Geldiniz');
+}
+function sayfaterketmemesaji() {
+    alert('Bizi yeniden ziyaret ediniz!!!');
+}
+function scrolluygulamasi() {
+    alert('sagilarda daha derinlemesine bilgi bulabilirsiniz');
+}
+*/
+/*
+//EventHandler
+function karekok() {
+    var x= prompt("Karekökünü almamizi istediginiz sayiyi asagiya giriniz", "Degeri buraya giriniz");
+    var y=Math.sqrt(x);
+    alert(y);    
+}
+*/
+/*
 // Javascript Kronometre, Setinterval, Global/Location
 var saniye = 3595;
 
@@ -16,9 +50,7 @@ function kronometre() {
 kronometre();
 
 setInterval("kronometre()",1000);
-
-
-
+*/
 /*
 // Java Script Date Object
 var zaman = new Date();
