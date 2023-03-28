@@ -1,9 +1,6 @@
 
 
-
-
-
-
+// Javascript te formlara ulasmak
 
 
 
