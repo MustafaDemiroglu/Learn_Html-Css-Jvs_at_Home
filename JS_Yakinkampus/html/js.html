@@ -12,14 +12,29 @@
 
 
     <form name="girisAlani">
-        Kullanici: <input type="text" name="kullaniciAdi">
-        Sifre Yeri: <input type="password" name="sifre">
-        <input type="button" name="gonder" id="gonder" value="gonder">
+        <fieldset>
+            <Legend>Kullanici giris alani</Legend>    
+             Kullanici: <input type="text" name="kullaniciAdi">
+            Sifre Yeri: <input type="password" name="sifre">
+            <input type="button" name="gonder" id="gonder" value="gonder">
+        </fieldset>
     </form>
 
-    <form name="anketAlani"></form>
+    <form name="anketAlani">
+        <fieldset>
+            <Legend>Anket alani</Legend>    
+            <input type="checkbox" name="adres" value="TR">Türkiye
+            <input type="checkbox" name="adres" value="AB">Avrupa Birligi
+            <input type="checkbox" name="adres" value="ABD">ABD
+            <input type="checkbox" name="adres" value="Diger">Diger
+        </fieldset>
+    </form>
 
-
+    <script>
+        var y=document.forms[0].length;
+        var x=document.anketAlani.elements[1].value;
+        alert(x);
+    </script>
 
 
 <!--  
