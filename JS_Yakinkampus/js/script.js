@@ -1,15 +1,15 @@
-
-
 // Javascript te formlara ulasmak
-
-
-
-
-
-
-
-
-
+function checker() {
+    var uzunluk=document.anketAlani.length;
+    var liste= new Array ();
+    for (var i = 0; i < uzunluk; i++) {
+        if (document.anketAlani.elements[i].checked == true) {
+            liste.push(document.anketAlani.elements[i].value);
+        } else {
+        }
+    }
+    alert("Ekranda secili ülkeler sunlardir: " +liste.join(", "));
+}
 /*
 /27.EventHandler-3
 function sayfayuklememesaji() {
