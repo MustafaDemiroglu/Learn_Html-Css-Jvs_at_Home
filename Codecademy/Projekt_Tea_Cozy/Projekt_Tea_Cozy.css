@@ -9,11 +9,27 @@ body, * {
 }
 header {
     height: 69px;
+    width: 100%;
     border-bottom: 1px solid seashell;
+    display: inline-flex;
 }
 
 #img-tea-cozy-logo{
-    height: 50px;
-    margin: 10px;
+    align-items: center;
+    margin: auto 0px;
+    padding-left: 10px;
+    flex-direction:left;
+    
 }
+
+#fixed_header{
+    text-decoration: underline;
+    margin: auto 0px auto auto;
+    padding: 10px;
+}
+
+#fixed_header a {  
+    margin-right: 10px;
+}
+
 
