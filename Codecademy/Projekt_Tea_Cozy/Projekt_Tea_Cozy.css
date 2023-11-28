@@ -6,6 +6,7 @@ body, * {
     opacity: 0.9;
     text-align: center;
     text-justify: auto;
+    display: inline-block;
 }
 header {
     height: 69px;
@@ -31,5 +32,27 @@ header {
 #fixed_header a {  
     margin-right: 10px;
 }
+
+.Mission {  
+    background-image: url(img-mission-background.webp);
+    background-size: cover; /* Arka plan resmi boyutlandırma */
+    width: 1200px;
+    height: 700px;
+    display: flex; /* Öğeleri dikey ve yatayda ortalamak için */
+    align-items: center;
+    justify-content: center;
+}
+
+#TextMission {
+    text-align: center; /* Metinleri ortalamak için */
+    width: 100%; /* Metinlerin genişliğini ayarlamak için */
+}
+
+#TextMission h2,
+#TextMission h4 {
+    display: block; /* Metinleri blok elementlere dönüştürmek */
+    margin: 20px auto; /* İstenilen boşluklar için */
+}
+
 
 
