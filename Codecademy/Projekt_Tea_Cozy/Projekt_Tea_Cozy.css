@@ -8,6 +8,7 @@ body, * {
     text-justify: auto;
     display: inline-block;
 }
+
 header {
     height: 69px;
     width: 100%;
@@ -20,7 +21,6 @@ header {
     margin: auto 0px;
     padding-left: 10px;
     flex-direction:left;
-    
 }
 
 #fixed_header{
@@ -36,6 +36,7 @@ header {
 .Mission {  
     background-image: url(img-mission-background.webp);
     background-size: cover; /* Arka plan resmi boyutlandırma */
+    margin: auto;
     width: 1200px;
     height: 700px;
     display: flex; /* Öğeleri dikey ve yatayda ortalamak için */
@@ -69,15 +70,22 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
+    
   }
 
-.image-box {
+  .item {
     text-align: center;
-    display: inline-block;
+    width: 300px;
 }
 
-.image-box img {
-    width: 300px;
+.item .image-box {
+    display: inline-block;
+    
+}
+
+.item .image-box img {
+    width: 300px; /* Resimlerin genişliğini ayarla */
     height: 200px;
 }
 
@@ -86,4 +94,44 @@ header {
     text-align: center;
 }
 
+.Locations {
+    background-image: url('img-locations-background.webp');
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+    height: 500px;
+    width: auto;
+}
+
+.loc_containeer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.loc_Adresse {
+    width: 300px;
+    text-align: center;
+}
+
+.loc_Adresse h2,
+.loc_Adresse h3 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    width: auto;
+}
+
+#copyright{
+    
+    margin-left: 20px;
+    
+    
+}
 
