@@ -19,7 +19,7 @@ html{
   /* Banner Section */
   
   #banner {
-    
+    height: 46rem;
     background-image: url('camel-background.png');
     background-position: center;
     
@@ -48,8 +48,8 @@ html{
   }
   
   #blog .post {
-    
-    
+    margin-bottom: 7.5%;
+    margin-top: 12.5%;
     width: 52%;
     display: flex;
     flex-direction: column;
@@ -86,7 +86,7 @@ html{
   /* Blog Images */
   
   .images {
-    
+    margin-bottom: 20%;
   }
   
   .images .image-container {
