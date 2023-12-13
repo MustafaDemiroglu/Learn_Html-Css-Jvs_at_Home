@@ -5,6 +5,10 @@ body {
     padding: 0;
   }
   
+html {
+  font-size: 18px;
+}
+
   header {
     background-color: #333;
     color: white;
@@ -31,7 +35,6 @@ body {
     padding: 20px;
   }
   
-  /* Responsive Design */
   @media screen and (max-width: 768px) {
     header {
       text-align: center;
@@ -47,6 +50,10 @@ body {
       margin-bottom: 10px;
     }
   
+    main {
+      padding: 10px;
+    }
+  
     .image-grid {
       display: flex;
       flex-wrap: wrap;
@@ -54,18 +61,22 @@ body {
     }
   
     .image-container {
-      width: 50%; /* Adjust as needed */
+      width: 100%;
       padding: 5px;
+      box-sizing: border-box;
     }
   }
   
-  @media screen and (max-width: 480px) {
-    main {
-      padding: 10px;
+  @media screen and (min-width: 769px) {
+    .image-grid {
+      display: flex;
+      flex-wrap: wrap;
     }
   
     .image-container {
-      width: 100%; /* Display images in full width on smaller screens */
+      width: 50%;
+      padding: 5px;
+      box-sizing: border-box;
     }
   }
   
