@@ -10,7 +10,7 @@ const getUserChoice = (userInput) => {
 };
 
 function getComputerChoice() {
-  let temp = Math.floor(0,2);
+  let temp = Math.floor(Math.random() * 3);
 
   if(temp == 0) {
       return "rock";
@@ -23,4 +23,3 @@ function getComputerChoice() {
     }
 }
 
-console.log(getComputerChoice());
