@@ -1,13 +1,13 @@
-const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+const concept = ['arrays', 'can', 'be', 'mutated'];
 
-groceryList.shift();    // deletes first Element
-console.log(groceryList);
+function changeArr(arr){
+  arr[3] = 'MUTATED';
+}
+changeArr(concept);
+console.log(concept);
 
-groceryList.unshift('popcorn'); // adds neu as firt element
-console.log(groceryList);
-
-console.log(groceryList.slice(1,4)); //  Elemnts from 1 to 4 are written
-console.log(groceryList);
-
-const pastaIndex = groceryList.indexOf('pasta');
-console.log(pastaIndex);
+function removeElement(newArr){
+  newArr.pop();
+}
+removeElement(concept);
+console.log(concept);
