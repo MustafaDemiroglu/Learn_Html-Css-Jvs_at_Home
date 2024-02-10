@@ -1,6 +1,6 @@
 let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'easily', 'the', 'first', 'time,', 'it', 'is', 'about', 'what', 'you', 'can', 'figure', 'out.', '-2015,', 'Chris', 'Pine,', 'Learn', 'JavaScript'];
 
-console.log(secretMessage.join(' '));
+console.log(secretMessage.join(' ')); // On one line, use console.log() and .join() to print the secret message as a sentence.
 
 console.log(secretMessage.length);
 
@@ -21,5 +21,6 @@ console.log(secretMessage.length);
 secretMessage.splice(6,5,'know');
 console.log(secretMessage.length);
 
-console.log(secretMessage.join(' '));
+console.log(secretMessage.join(' ')); // On one line, use console.log() and .join() to print the secret message as a sentence.
+
 
