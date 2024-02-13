@@ -8,3 +8,7 @@ if (true) {
   if (sale) {
     console.log('Time to buy!'); 
   }  
+
+
+  
+  
