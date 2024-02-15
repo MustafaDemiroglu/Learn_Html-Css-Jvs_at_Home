@@ -4,3 +4,49 @@ let storyWords = story.split(' ');
 let unnecessaryWord = 'literally';
 let misspelledWord = 'beautifull';
 let badWord = 'freaking';
+
+let count = 0;
+storyWords.forEach(word => count++);
+console.log('1 - In this text there are now ' + count + ' words.');
+
+let ohneUnnecessaryWord = storyWords.filter(word => {
+  return word !== unnecessaryWord;
+});
+let count2 = 0;
+ohneUnnecessaryWord.forEach(word => count2++);
+console.log('2 - In this text there are now ' + count2 + ' words.');
+
+storyWords = ohneUnnecessaryWord.map(word =>{
+  if (word === misspelledWord) {
+      return 'beautiful';
+    } else {
+      return word;
+    }
+});
+let count3 = 0;
+storyWords.forEach(word => count3++);
+console.log('3 - In this text there are now ' + count3 + ' words.');
+
+let badWordIndex = storyWords.findIndex(word => {
+  return word === badWord;
+});
+console.log('Index of bad word : ' + badWordIndex);
+
+storyWords[badWordIndex] = 'really';
+console.log('To control if we already chanced the bad word ! New Word : ' + storyWords[badWordIndex]); 
+
+let lengthCheck = storyWords.every((word) => { word < 10} );
+console.log("To control if all words are shorter than 10 character : " + lengthCheck);
+
+let longWordIndex = storyWords.findIndex(word => {
+  return word.length > 10;
+});
+console.log('Index of long word : ' + longWordIndex);
+storyWords[longWordIndex] = 'stunning';
+console.log('To control if we already chanced the long word ! New Word : ' + storyWords[longWordIndex]); 
+
+let lengthCheck2 = storyWords.every((word) => { word < 10} );
+console.log("To control second time if all words are shorter than 10 character : " + lengthCheck2);
+
+console.log (" ------ Last Control ------- ");
+console.log(storyWords.join(' '));
