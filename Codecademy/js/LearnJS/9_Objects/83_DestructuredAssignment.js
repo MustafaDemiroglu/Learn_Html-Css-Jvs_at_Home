@@ -29,6 +29,7 @@ const robot = {
         console.log('Pew Pew');
       },
     }
-};
-
-
+  };
+  const {functionality }= robot;
+  functionality.beep();
+  functionality.fireLaser();
