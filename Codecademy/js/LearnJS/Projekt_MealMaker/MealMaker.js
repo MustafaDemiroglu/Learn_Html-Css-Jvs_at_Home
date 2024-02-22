@@ -1,4 +1,5 @@
 const menu = {
-    _meal :''
+    _meal :'',
+    _price : 0
   
   };
