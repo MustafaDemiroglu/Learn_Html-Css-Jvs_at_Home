@@ -27,7 +27,6 @@ const menu = {
   menu.price = 'kebap';
   console.log(menu);
   console.log(menu.todaysSpecial);
-
 /*
 You must assign a food to meal
 You must assign a number to price
