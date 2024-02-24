@@ -40,7 +40,6 @@ You must assign a number to price
 }
 Meal or price was not set correctly!.
 */
-
 menu.meal = 'Adana Kebap';
 menu.price = 30;
 console.log(menu);
