@@ -1,7 +1,7 @@
-function isSumBigger(number1, number2, total {
+function isSumBigger(number1, number2, total) {
     const sum = number1 + number2;
     
-    if (numberSum > total;) {
+    if (numberSum > total) {
       return true;
     } else {
       return false;
