@@ -1,4 +1,4 @@
-const {shopForBeans, soakTheBeans, cookTheBeans} = require('./library.js');
+const {shopForBeans, soakTheBeans, cookTheBeans} = require('./library6.js');
 
 // Write your code beansbelow:
 async function makeBeans() {
