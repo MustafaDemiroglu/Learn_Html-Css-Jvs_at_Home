@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            min-width: 100;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:info@kitaStuttgart.com" method="post">
+        <fieldset>
+            <h2>Kita Stuttgart Onlinemeldung</h2>
+        <label for="Vorname">Vorname:</label>
+        <input type="text" name="Vorname" id="Vorname" maxlength="35"> <br>
+        <label for="Nachname">Nachname:</label>
+        <input type="text" name="Nachname" id="Nachname" maxlength="35"> <br>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email" maxlength="35"> <br>
+        <label for="Geburtsdatum">Geburtsdatum:</label>
+        <input type="date" name="Geburtsdatum" id="Geburtsdatum"> <br>
+        <br>
+        
+        <label for="Ernaehrung">Mein Kind ernährt sich:</label> <br>
+        <select name="Ernaehrung" id="Ernaehrung">
+            <option value="Vollkost">Vollkost</option>
+            <option value="Vegan">Vegan</option>
+            <option value="Vegetarisch">Vegetarisch</option>
+        </select><br>
+        <br>
+       
+        <label for="checkbox">Folgende Personen sind berectigt das Kind abzuholen: </label> <br>
+        <label for="checkbox">(Mehrfachauswahl möglich)</label><br>
+        <input type="checkbox" name="Mutter" id="Mutter">
+        <label for="Mutter">Mutter</label>
+        <input type="checkbox" name="Vater" id="Vater">
+        <label for="Vater">Vater</label>
+        <input type="checkbox" name="Geschwister" id="Geschwister"> 
+        <label for="Geschwister">Geschwister ab 12 Jahre</label> <br>
+        <br>
+        
+        <label for="textarea">Zusätzlich sind folgende Personen berechtigt das Kind abzuholen</label><br>
+        <textarea name="textarea" id="textarea" rows="2"></textarea><br>
+        <br>
+
+        <label for="radio">Wie viele Betreuungsstunden benötigen Sie täglich?</label><br>
+        <label for="radio">(nur eine Auswahl ist möglich</label><br>
+        <input type="radio" name="6" id="6"> <label for="6">6</label> <br>
+        <input type="radio" name="8" id="8"> <label for="8">8</label> <br>
+        <input type="radio" name="10" id="10"> <label for="10">10</label> <br>
+        <br>
+
+        <label for="textarea2">WeitereMitteilungen:</label><br>
+        <textarea name="textarea2" id="textarea2" rows="4"></textarea><br>
+        <br>
+
+        <input type="submit" value="Anmeldung versenden"> <br>
+        <br>
+
+       <a href="Kitastuttgart.html" target="_blank" rel="noopener noreferrer">Zurück zur Startseite Kita Stuttgart</a>
+
+        
+        </fieldset>
+    </form>
+</body>
+</html>
