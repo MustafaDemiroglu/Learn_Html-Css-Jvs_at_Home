@@ -5,23 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        label {
-            min-width: 100;
-        }
     </style>
 </head>
 <body>
     <form action="mailto:info@kitaStuttgart.com" method="post">
         <fieldset>
             <h2>Kita Stuttgart Onlinemeldung</h2>
-        <label for="Vorname">Vorname:</label>
-        <input type="text" name="Vorname" id="Vorname" maxlength="35"> <br>
-        <label for="Nachname">Nachname:</label>
-        <input type="text" name="Nachname" id="Nachname" maxlength="35"> <br>
-        <label for="Email">Email:</label>
-        <input type="email" name="Email" id="Email" maxlength="35"> <br>
-        <label for="Geburtsdatum">Geburtsdatum:</label>
-        <input type="date" name="Geburtsdatum" id="Geburtsdatum"> <br>
+        <table>
+            <tr>
+                <td><label for="Vorname">Vorname:</label></td>
+                <td><input type="text" name="Vorname" id="Vorname" size="35"></td>
+            </tr>
+            <tr>
+                <td><label for="Nachname">Nachname:</label> </td>
+                <td><input type="text" name="Nachname" id="Nachname" size="35"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email:</label></td>
+                <td><input type="email" name="Email" id="Email" size="35"></td>
+            </tr>
+            <tr>
+                <td><label for="Geburtsdatum">Geburtsdatum:</label> </td>
+                <td><input type="date" name="Geburtsdatum" id="Geburtsdatum"></td>
+            </tr>
+        </table>
         <br>
         
         <label for="Ernaehrung">Mein Kind ernährt sich:</label> <br>
